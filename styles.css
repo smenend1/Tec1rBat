@@ -1,1 +1,3 @@
-/* CSS principal. L'HTML també inclou CSS essencial per evitar pantalla sense estil. */
+/* Estils principals incrustats a index.html per robustesa GitHub Pages. v2 */
+.figureGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.figureLink img{width:100%;height:220px;object-fit:contain}

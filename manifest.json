@@ -1,7 +1,7 @@
 {
-  "name": "Tecnologia Industrial 1r BATX Exercicis Plus",
-  "short_name": "TI 1r BATX",
-  "description": "PWA educativa per resoldre exercicis trimestrals de Tecnologia Industrial de 1r de Batxillerat.",
+  "name": "Tecnologia Industrial 1r BATX Exercicis Plus v2",
+  "short_name": "TI 1r v2",
+  "description": "PWA de 1r BATX amb exercicis trimestrals, figures originals, resolució guiada i mode docent.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f4f7f5",
