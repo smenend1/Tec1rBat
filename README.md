@@ -1,39 +1,23 @@
-# Tecnologia Industrial 1r BATX · Exercicis Plus v2
+# Tecnologia Industrial 1r BATX · Exercicis Plus v3
 
-PWA educativa en català per treballar exercicis de Tecnologia Industrial de 1r de Batxillerat a partir dels exàmens trimestrals del curs.
+PWA educativa en català per treballar exercicis de Tecnologia Industrial de 1r de Batxillerat.
 
-## Novetats v2
+## Novetats v3
 
-- Integració de les pàgines originals dels exàmens com a imatges PNG.
-- Enllaç al PDF original de cada examen.
-- Les fitxes d'exercici mostren ara enunciat, resolució guiada i pàgines originals.
-- Millora per a exercicis amb circuits, esquemes, taules o figures.
-- Fitxa imprimible amb figures originals.
-- Service Worker actualitzat a v2.
+- Integra un banc complementari d’exercicis derivats dels solucionaris McGraw de 1r BAT i activitats d’ampliació de 2n BAT.
+- Classificació per unitats, temes i subtemes.
+- No incorpora els PDF complets dels solucionaris dins l’app per evitar redistribuir material editorial protegit.
+- Les fitxes són activitats de pràctica pròpies, resumides i transformades, amb procediment pas a pas.
+- Manté les figures originals dels exàmens trimestrals del curs quan ja hi eren a la v2.
 
-## Pestanyes
+## Contingut
 
-- **Inici**: resum de l'app i accés ràpid.
-- **Temes**: exercicis agrupats per tema.
-- **Exàmens**: banc d'exercicis segons prova trimestral.
-- **Exercicis**: selector i resolució guiada.
-- **Calculadores**: eines bàsiques d'electricitat, energia, calor i resistències.
-- **Pràctica**: exercici aleatori per repassar.
-- **Docent**: dossiers i solucionaris.
-- **Progrés**: registre local.
-- **Ajuda**: instruccions bàsiques.
+- Exàmens trimestrals de 1r BATX.
+- Banc McGraw 1r BAT: recursos energètics, producció elèctrica, renovables, corrent continu, instal·lacions domèstiques, materials, màquines simples, transmissió i pneumàtica.
+- Banc d’ampliació McGraw 2n BAT: màquines, motors, corrent altern, oleohidràulica, lògica digital i metrologia.
+- Calculadores bàsiques.
+- Mode docent, progrés local i dossiers imprimibles.
 
-## Instal·lació a GitHub Pages
+## Publicació
 
-Puja tots els fitxers i carpetes del ZIP al repositori. Cal mantenir les carpetes:
-
-```
-assets/exam_pages/
-assets/source_pdfs/
-```
-
-Després de la primera càrrega, l'app funciona offline. Si canvies de versió, esborra la memòria cau del navegador o força una recàrrega completa.
-
-## Limitació
-
-La v2 incorpora les pàgines originals completes, però no retalla encara cada figura individual. Si un exercici depèn d'una figura, l'alumne ha de consultar la pàgina original integrada.
+Puja tots els fitxers a GitHub Pages. Si actualitzes des d’una versió anterior, força actualització o esborra dades del lloc perquè el Service Worker pot mantenir la versió antiga.
